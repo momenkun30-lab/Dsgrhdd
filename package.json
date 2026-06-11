@@ -1,15 +1,19 @@
 {
   "name": "redline-backend",
   "version": "1.0.0",
-  "description": "RedLine Commercial Cloud Sync Node Server",
+  "description": "Express backend for RedLine connected to MongoDB Atlas",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "mongoose": "^8.4.1",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "body-parser": "^1.20.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
